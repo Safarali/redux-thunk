@@ -1,6 +1,6 @@
 import { SET_USER_PROFILE } from '../actions/types';
 
-const reducer = (state, action) => {
+const reducer = (state = {}, action) => {
   switch (action.type) {
     case SET_USER_PROFILE:
       return {
